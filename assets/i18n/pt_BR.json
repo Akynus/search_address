@@ -1,0 +1,34 @@
+{
+  "application": {
+    "title": "Pesquisa de CEP"
+  },
+  "screen": {
+    "main": {
+      "app_bar": {
+        "title": "Informe o CEP para Pesquisa"
+      },
+      "field": {
+        "zip_code": {
+          "label": "CEP",
+          "hint": "Informe o CEP para Pesquisa"
+        }
+      },
+      "button": {
+        "submit": "Pesquisar"
+      }
+    },
+    "info": {
+      "app_bar": {
+        "title": "CEP {text}"
+      }
+    },
+    "error": {
+      "message": {
+        "description": "O CEP {text} não foi encontrado. \n Verifique o CEP informado e tente novamente."
+      },
+      "button": {
+        "try_again": "Tentar novamente"
+      }
+    }
+  }
+}
